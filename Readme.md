@@ -1,26 +1,25 @@
-# Array Problems and Solutions
+# Coding Problems and Solutions
 
-## Problem 1: Missing Number in Array
+### 1. **Find the Majority Element in an Array**
+   - Given an array of size `n`, find the majority element that appears more than `n/2` times.
 
-### Problem Statement:
-Given an array containing `n` distinct numbers taken from the range `1` to `n+1`, find the missing number in the array using the sum formula and `max_element` for dynamically finding the maximum number in the array.
+### 2. **Missing Number in an Array using Sum Formula**
+   - Given an array containing `n` distinct numbers taken from `1, 2, ..., n+1`, find the missing number using the sum formula.
 
-### Approach:
+### 3. **Rotate Array by k Positions**
+   - Rotate the array to the right by `k` steps using an efficient method.
 
-- **Step 1**: Find the maximum number in the array using `max_element()`.
-- **Step 2**: Calculate the total sum of numbers from `1` to `max_number` using the sum formula:
-  \[
-  \text{Sum} = \frac{\text{max\_number} \times (\text{max\_number} + 1)}{2}
-  \]
-- **Step 3**: Calculate the sum of the elements present in the array.
-- **Step 4**: The missing number is the difference between the total sum and the sum of the array.
+### 4. **Reverse an Array**
+   - Reverse an array using the two-pointer approach.
 
-### Example:
+### 5. **Remove Duplicates from Sorted Array**
+   - Remove duplicates from a sorted array in place and return the new length of the array.
 
-Given the array:
-```cpp
-{1, 2, 3, 4, 6, 7}
+### 6. **Remove Duplicates using Unordered Map**
+   - Remove duplicates from an array using an unordered map and output the unique elements.
 
+### 7. **Add an Element to an Array**
+   - Add a new element to the end of an array and print the updated array.
 
-### Explanation:
-This `README.md` covers both the missing number problem and the second largest/smallest element problem. It provides a description, step-by-step approach, time complexity analysis, and complete code examples for both problems.
+### 8. **Generate Fibonacci Sequence**
+   - Generate the Fibonacci sequence up to a specified limit.
